@@ -27,8 +27,7 @@ public class ReadDuenio {
 					String dni = ficheroEntrada.readLine();
 				
 					GuardadorObjetos.guardarDuenio(matricula, dni);
-					 
-					datosPC.add(dni);
+					 datosPC.add(dni);
 					
 					 matricula = ficheroEntrada.readLine();
 

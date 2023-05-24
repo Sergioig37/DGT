@@ -12,11 +12,11 @@ public class Write {
 
 	public static void escribir(Iterator<Persona> lista) {
 		
-		
+		BufferedWriter ficheroSalida;
 		ArrayList<Persona> personas = new ArrayList<Persona>();
 		
 		try {
-			FileWriter ficheroSalida = (new FileWriter("C:\\Users\\Usuario\\Documents\\RESULTADO.txt"));
+			ficheroSalida = new BufferedWriter(new FileWriter("C:\\Users\\Mañana\\Documents\\RESULTADO.txt"));
 			
 			while(lista.hasNext()) {
 				personas.add(lista.next());

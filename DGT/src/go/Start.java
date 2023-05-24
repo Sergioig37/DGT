@@ -17,11 +17,11 @@ public class Start {
 		// TODO Auto-generated method stub
 		
 		
-		ReadCoche.readFiles("C:\\Users\\Usuario\\Documents\\COCHE.txt");
+		ReadCoche.readFiles("C:\\Users\\Mañana\\Documents\\COCHE.txt");
 		
-		ReadPersona.readFiles("C:\\Users\\Usuario\\Documents\\DNI.txt");
+		ReadPersona.readFiles("C:\\Users\\Mañana\\Documents\\DNI.txt");
 		
-		ReadDuenio.readFiles("C:\\Users\\Usuario\\Documents\\DNICOCHE.txt");
+		ReadDuenio.readFiles("C:\\Users\\Mañana\\Documents\\DNICOCHE.txt");
 		
 		Write.escribir(GuardadorObjetos.sacarPersonas());
 		

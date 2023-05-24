@@ -27,7 +27,10 @@ public class GuardadorObjetos {
 	public static void guardarDuenio(String coche, String persona){
 		
 		
+		
+		
 		personas.get(persona).getCoches().add(coches.get(coche));
+		
 	
 	
 	}
